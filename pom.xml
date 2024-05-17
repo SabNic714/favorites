@@ -49,11 +49,12 @@
                 <artifactId>dependency-check-maven</artifactId>
                 <version>9.1.0</version>
             </plugin>
-        </plugins>
-        <plugin>
+            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-failsafe-plugin</artifactId>
             </plugin>
+        </plugins>
+       
     </build>
 
 </project>
